@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ADD8E6;
+}
+.container{
+ 
+    width: 20%;
+    height: 60%;
+    background: #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 10px;
+    
+}
+
+img{
+    margin: 10px 10% 10px 10%;
+    width: 80%;
+    border-radius: 5px;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+     margin: 6px 3px;
+    
+}
+p{
+    font-size: 14px;
+    text-align: center;
+    margin: 16px 12px;
+    color: gray;
+}
+
+
+@media (min-width: 300px){
+    
+    .container{
+     
+        width: 80%;
+        height: 66%;
+        background: #fff;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        border-radius: 20px;
+        
+    }
+    
+    img{
+        margin: 15px 5% 10px 5%;
+        width: 90%;
+        border-radius: 9px;
+    }
+    h1{
+        font-size: 23px;
+    }
+    
+    p{
+        font-size: 16px;
+    }
+    }
+
+@media (min-width: 400px){
+    
+.container{
+ 
+    width: 80%;
+    height: 55%;
+    background: #fff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 20px;
+    
+}
+
+img{
+    margin: 15px 5% 10px 5%;
+    width: 90%;
+    border-radius: 9px;
+}
+h1{
+    font-size: 23px;
+}
+
+p{
+    font-size: 16px;
+}
+}
+
+
+@media (min-width: 600px){
+    
+    .container{
+     
+        width: 80%;
+        height: 65%;
+        background: #fff;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        border-radius: 20px;
+        
+    }
+    
+    img{
+        margin: 15px 5% 10px 5%;
+        width: 90%;
+        border-radius: 9px;
+    }
+    h1{
+        font-size: 23px;
+    }
+    
+    p{
+        font-size: 16px;
+    }
+    }
+
+    
+@media (min-width: 800px){
+    
+    .container{
+     
+        width: 50%;
+        height: 50%;
+        background: #fff;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        border-radius: 20px;
+        
+    }
+    
+    img{
+        margin: 15px 8% 10px 8%;
+        width: 85%;
+        border-radius: 9px;
+    }
+    h1{
+        font-size: 23px;
+    }
+    
+    p{
+        font-size: 16px;
+    }
+    }
+
+    
+@media (min-width: 1200px){
+    
+    .container{
+     
+        width: 25%;
+        height: 68%;
+        background:#fff;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+        border-radius: 20px;
+        
+    }
+    
+    img{
+        margin: 15px 7% 10px 7%;
+        width: 85%;
+        border-radius: 9px;
+    }
+    h1{
+        font-size: 23px;
+    }
+    
+    p{
+        font-size: 16px;
+    }
+    }
